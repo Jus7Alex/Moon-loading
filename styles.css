@@ -1,0 +1,14 @@
+#moon {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     box-shadow: 5px 5px 0 0 red;
+     animation: auto 1s infinite;
+   }
+   @keyframes auto{
+       0%{
+           transform: rotateZ(10deg);
+       }
+       100%{
+           transform: rotateZ(360deg);
+   }
